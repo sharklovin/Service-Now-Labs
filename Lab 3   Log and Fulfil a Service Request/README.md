@@ -1,8 +1,11 @@
 # Lab 03 - Log and Fulfil a Service Request
 
 **Platform:** ServiceNow Personal Developer Instance (PDI)
+
 **Module:** Service Catalog - Request Management
+
 **Priority:** High
+
 **Estimated Duration:** 45-60 minutes
 
 ---
@@ -18,6 +21,7 @@ Use the ServiceNow Service Catalog to submit a service request, fulfil it throug
 > A new employee is starting on Monday and needs the following items provisioned before their first day:
 >
 > - A **Standard Laptop** (hardware)
+
 > - A **New Email Account** (Active Directory + Microsoft 365 licence)
 > - **Corporate VPN Access** (network provisioning)
 >
@@ -60,7 +64,8 @@ Navigate to **Service Desk > Requests** and separately to **Service Desk > Incid
 
 > A request is fulfilment work. An incident is break-fix work. This distinction is fundamental to ITIL-aligned service management.
 
-![Request list vs Incident list side by side](images/01_request_vs_incident_list.png)
+<img width="1365" height="637" alt="01_request_vs_incident_list" src="https://github.com/user-attachments/assets/0b9b566e-6083-47ac-8ba3-b18ea3bd1ea6" />
+
 *Fig 1 - Left: Tasks view showing REQ0000001 as a Request type. Right: Incidents view showing INC0008111 "User cannot connect to VPN" - these are two fundamentally different record types.*
 
 ---
@@ -78,7 +83,8 @@ Explore the available categories:
 
 Note the **Top Requests** sidebar on the right - this shows the most commonly ordered items in your instance.
 
-![Service Catalog overview with categories](images/02_service_catalog_overview.png)
+<img width="1356" height="638" alt="02_service_catalog_overview" src="https://github.com/user-attachments/assets/504e78b2-4e97-4bd4-92d8-4c87e2ad37bd" />
+
 *Fig 2 - The Service Catalog homepage. The "Can We Help You?" tile and Top Requests sidebar (both highlighted) are key starting points for end users and help desk agents.*
 
 ---
@@ -95,7 +101,8 @@ The order included four line items:
 
 > If your PDI does not have a New Hire Order Guide, submit individual catalog items from the Hardware and Software categories and note the REQ number generated.
 
-![Order Status screen showing REQ0010002 submitted](images/03_order_status_req0010002.png)
+<img width="1363" height="632" alt="03_order_status_req0010002" src="https://github.com/user-attachments/assets/88a1af26-d203-432b-b986-ffd4cd6155ee" />
+
 *Fig 3 - Order Status confirmation for REQ0010002. The highlighted section shows the four line items, their delivery dates, and their current Stage indicators. The order was placed on 2026-04-28 at 01:33:04.*
 
 ---
@@ -133,7 +140,8 @@ Open **RITM0010007**.
 3. Add a Work Note: `Laptop allocated, asset tagged and prepared for delivery`
 4. The RITM remains in `Work in Progress` until approval and delivery is confirmed
 
-![RITM0010007 Standard Laptop fulfilment record](images/04_ritm0010007_standard_laptop.png)
+<img width="1365" height="637" alt="04_ritm0010007_standard_laptop" src="https://github.com/user-attachments/assets/a277dccf-0cae-4217-8326-5a47d28e9386" />
+
 *Fig 4 - RITM0010007 for Standard Laptop. Highlighted: Stage "Waiting for Approval" and the Work Notes field documenting the fulfilment action taken by the Hardware team.*
 
 ---
@@ -154,7 +162,8 @@ Open **RITM0010009**.
 2. Add a Work Note: `Active Directory account created and Microsoft 365 license assigned`
 3. The account provisioning is logged and traceable
 
-![RITM0010009 New Email Account fulfilment record](images/05_ritm0010009_new_email_account.png)
+<img width="1363" height="614" alt="05_ritm0010009_new_email_account" src="https://github.com/user-attachments/assets/3a53b135-1b93-48f8-9863-ac0b38b7296d" />
+
 *Fig 5 - RITM0010009 for New Email Account. Highlighted: Assignment Group "Service Desk" and Stage "waiting_for_approval". The Work Notes confirm the AD account and M365 licence were provisioned.*
 
 ---
@@ -175,7 +184,8 @@ Open **RITM0010008**.
 2. Add Work Note: `Access request submitted and VPN profile configured`
 3. State is set to `Work in Progress` (shown with green highlight in the State field)
 
-![RITM0010008 Corp VPN Access fulfilment record](images/06_ritm0010008_corp_vpn_access.png)
+<img width="1365" height="619" alt="06_ritm0010008_corp_vpn_access" src="https://github.com/user-attachments/assets/e8dffe9d-d225-4978-bd9f-71aa7c56de1e" />
+
 *Fig 6 - RITM0010008 for Corp VPN. Highlighted: State dropdown showing "Work in Progress" (note the active green border) and Assignment Group "Network Team". Work Note reads "Access request."*
 
 ---
@@ -192,7 +202,8 @@ Observe the following fields:
 
 > The parent REQ record automatically reflects the aggregate state of its child RITMs. Once all RITMs are closed, the REQ state will update to Closed Complete without manual intervention.
 
-![REQ0010002 parent record showing Approved status](images/07_req0010002_parent_approved.png)
+<img width="1352" height="372" alt="07_req0010002_parent_approved" src="https://github.com/user-attachments/assets/a1200770-10f0-4396-90f1-d33f789ba381" />
+
 *Fig 7 - Parent REQ0010002. Highlighted: both the "Approval" field and "Request state" field showing "Approved". The $1,100.00 price reflects the Standard Laptop catalog item cost.*
 
 ---
@@ -213,7 +224,8 @@ Open **RITM0010001** (the first Standard Laptop RITM that has progressed further
 3. Click **Update**
 4. The Stage will automatically move to `Order Fulfillment`
 
-![RITM0010001 showing Closed Complete state](images/08_ritm0010001_closed_complete.png)
+<img width="1346" height="623" alt="08_ritm0010001_closed_complete" src="https://github.com/user-attachments/assets/5831a648-2139-4b4e-8607-20863a0cdc92" />
+
 *Fig 8 - RITM0010001 fully closed. Highlighted: Stage "Order Fulfillment" and State "Closed Complete". This is the target end state for every RITM once work is done and documented.*
 
 ---
@@ -264,29 +276,3 @@ An optional sub-task under an RITM for breaking fulfilment into smaller steps. N
 A completely separate record type for service disruptions. Never use an incident to fulfil a request. Never use a request to log a break-fix issue.
 
 ---
-
-## Files in This Lab
-
-```
-lab-03-service-request/
-- README.md                              <- This file - full lab walkthrough
-- TICKET_NOTES.md                        <- Fulfilment notes in ticket format
-- images/
-  - 01_request_vs_incident_list.png      <- Request vs Incident list comparison
-  - 02_service_catalog_overview.png      <- Service Catalog homepage
-  - 03_order_status_req0010002.png       <- Order Status confirmation screen
-  - 04_ritm0010007_standard_laptop.png   <- RITM for Standard Laptop
-  - 05_ritm0010009_new_email_account.png <- RITM for New Email Account
-  - 06_ritm0010008_corp_vpn_access.png   <- RITM for Corp VPN Access
-  - 07_req0010002_parent_approved.png    <- Parent REQ showing Approved
-  - 08_ritm0010001_closed_complete.png   <- RITM closed as Complete
-```
-
----
-
-## Related Labs
-
-- Lab 01 - Log and Resolve an Incident
-- Lab 02 - Incident Assignment and Escalation
-- **Lab 03 - Log and Fulfil a Service Request** (this lab)
-- Lab 04 - Change Management and CAB Approval
