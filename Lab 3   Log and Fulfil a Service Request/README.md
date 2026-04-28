@@ -1,4 +1,4 @@
-# Lab 03 - Log and Fulfil a Service Request
+# Log and Fulfil a Service Request
 
 **Platform:** ServiceNow Personal Developer Instance (PDI)
 
