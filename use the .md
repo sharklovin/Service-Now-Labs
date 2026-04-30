@@ -135,7 +135,7 @@ Use the Settings panel to adjust Styling, Background, Border, Dimension (Size, P
 
 > Set the Scheduled publish date to today or a near future date. Set Valid to a far future date (2100-01-01) so the article does not expire unexpectedly.
 
-![Article editor with KB0010008 being written]<img width="1363" height="639" alt="03_create_new_knowledge_article" src="https://github.com/user-attachments/assets/8b4892ea-ad90-4ab5-93b9-ca8e585ff03c" />
+<img width="1363" height="639" alt="03_create_new_knowledge_article" src="https://github.com/user-attachments/assets/8b4892ea-ad90-4ab5-93b9-ca8e585ff03c" />
 
 *Fig 3 - The Create New Knowledge editor. Highlighted: the auto-generated KB number (KB0010008), the Short description field, and the Scheduled publish date. The centre canvas shows the article body with Symptoms section visible.*
 
@@ -164,7 +164,7 @@ The article tab in the header (shown as "Users unable to...") confirms the artic
 
 > Some PDI configurations route articles through an approval workflow before they reach Published state. If your article moves to "Awaiting Approval" after saving, ask your KB manager to approve it, or check the Knowledge Management > Administration settings to adjust the workflow.
 
-![Published article KB0010008 - Users unable to log in]<img width="1364" height="634" alt="04_published_article_kb0010008" src="https://github.com/user-attachments/assets/687acb7a-6b66-49c1-b939-4e32cc245f97" />
+<img width="1364" height="634" alt="04_published_article_kb0010008" src="https://github.com/user-attachments/assets/687acb7a-6b66-49c1-b939-4e32cc245f97" />
 
 *Fig 4 - Published state of KB0010008. Highlighted: the KB number and metadata line (KB0010008, authored by System Administrator, 2 views) and the article title. The green-outlined tab confirms the article is open and published.*
 
@@ -189,7 +189,7 @@ This incident represents the password reset issue that prompted the knowledge ar
 
 > If creating a new incident, set the Short description to "User unable to log in" and set State to Resolved before proceeding. This simulates a realistic post-resolution documentation workflow.
 
-![Incident INC0010012 - User unable to log in]<img width="1360" height="343" alt="05 opened incident " src="https://github.com/user-attachments/assets/d7a047f6-0500-4eea-9d2d-5549c888d915" />
+<img width="1360" height="343" alt="05 opened incident " src="https://github.com/user-attachments/assets/d7a047f6-0500-4eea-9d2d-5549c888d915" />
 
 *Fig 5 - Incident INC0010012 with Short description "User unable to log in". Highlighted: the INC number, the State showing "Resolved", and the Short description field - the three fields that establish the context for linking the KB article.*
 
@@ -216,7 +216,7 @@ Click **Attach** on the right of the result to link the article to this incident
 
 > The Related Search feature uses contextual matching based on the incident short description. This is a core KCS practice - surfacing relevant knowledge automatically during the resolution process, before an agent even thinks to search manually.
 
-![Related search results showing KB0010008 with Attach button]<img width="1333" height="176" alt="06 seraching for the article" src="https://github.com/user-attachments/assets/8116f74b-6eba-4199-a0f8-4eb39c1654f4" />
+<img width="1333" height="176" alt="06 seraching for the article" src="https://github.com/user-attachments/assets/8116f74b-6eba-4199-a0f8-4eb39c1654f4" />
 
 *Fig 6 - Related Search Results panel within the incident. Highlighted: the article result "Users unable to log in due to forgott..." with its IT | IT classification, and the "Attach" button on the right. Attaching creates the formal link between the incident and the KB article.*
 
@@ -248,7 +248,7 @@ Click **Update** to save all changes.
 
 > Always include the KB article number in both the Work Notes and the Resolution Notes. This creates a bidirectional audit trail - you can find the incident from the article, and find the article from the incident.
 
-![Work notes, comments, and resolution fields completed]<img width="1299" height="366" alt="07 article and work notes linked" src="https://github.com/user-attachments/assets/a5a8e756-ecc9-495f-a2c1-9431a6074485" />
+<img width="1299" height="366" alt="07 article and work notes linked" src="https://github.com/user-attachments/assets/a5a8e756-ecc9-495f-a2c1-9431a6074485" />
 
 *Fig 7 - Incident resolution section fully completed. Highlighted: the Work Notes field ("Resolved using Knowledge Article KB0010008. Article linked to this record."), the Resolution code ("Solution provided"), and the Resolution notes referencing KB0010008.*
 
@@ -269,7 +269,7 @@ This hyperlinked entry confirms the KB article is formally attached to the incid
 
 > The activity log is permanent and tamper-evident. Once a KB article is linked and the record is saved, this entry cannot be removed without administrative access. This is your audit evidence that KCS practice was followed.
 
-![Activity log showing KB0010008 article linked]<img width="1248" height="126" alt="08_activity_log_kb_article_attached" src="https://github.com/user-attachments/assets/90dbef61-33fe-4777-8e8b-a19b23f7aecc" />
+<img width="1248" height="126" alt="08_activity_log_kb_article_attached" src="https://github.com/user-attachments/assets/90dbef61-33fe-4777-8e8b-a19b23f7aecc" />
 
 *Fig 8 - The Activities section of the incident. Highlighted: the KB0010008 hyperlink entry timestamped 2026-04-30 03:51:28. This confirms the article is formally attached and discoverable from the incident record.*
 
@@ -321,7 +321,7 @@ The bidirectional link is now complete:
 
 > The view count incrementing from 17 to 18 after your search validates that the article is being tracked. Over time, a high view count with low new-incident volume on the same topic is the primary metric that proves the article is achieving deflection.
 
-![Published article showing 18 views and linked incident in sidebar]<img width="1181" height="569" alt="10_article_published_view_with_incident_link" src="https://github.com/user-attachments/assets/60df4b70-ba48-41fc-ba7a-877bf6067b04" />
+<img width="1181" height="569" alt="10_article_published_view_with_incident_link" src="https://github.com/user-attachments/assets/a531bee5-c6df-47ae-9021-93992f5bb541" />
 
 *Fig 10 - The published KB0010008 article viewed from the self-service portal. Highlighted: the article metadata line showing "18 Views" and the "Most Recent Tasks" sidebar linking back to INC0010025. This bidirectional traceability is the hallmark of a well-implemented KCS workflow.*
 
