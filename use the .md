@@ -62,7 +62,7 @@ Observe the dashboard layout:
 
 > The Knowledge Center is the management hub for all knowledge bases. Before creating an article, always check whether a similar one already exists to avoid duplication.
 
-![Knowledge Center dashboard overview]<img width="1358" height="638" alt="01_knowledge_center_dashboard" src="https://github.com/user-attachments/assets/8e57fd1d-70d8-46a2-ad9c-060ea12135d9" />
+<img width="1358" height="638" alt="01_knowledge_center_dashboard" src="https://github.com/user-attachments/assets/8e57fd1d-70d8-46a2-ad9c-060ea12135d9" />
 
 *Fig 1 - Knowledge Center homepage. Highlighted: the "Create an article" action link (top right) and the Knowledge bases list showing article counts per base. The IT knowledge base with 35 articles is where this lab's article will be created.*
 
