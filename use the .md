@@ -91,7 +91,7 @@ Click **Next** to proceed to the article editor.
 
 > Always match the template to the content type. Use Standard for How-To and FAQ articles. Use Known Error article only when the article is being linked to a Problem record.
 
-<img width="1358" height="638" alt="01 Knowledge Center dashboard" src="https://github.com/user-attachments/assets/0a6fde35-a4db-446a-8fa2-8a83a6aa35f6" />
+<img width="1355" height="636" alt="02_select_knowledge_base_and_template" src="https://github.com/user-attachments/assets/c4c835c7-3159-43e6-adab-8c1f9e63896f" />
 
 *Fig 2 - Article creation wizard. Highlighted: "IT" selected as the knowledge base (left panel, green bar) and "Standard" as the template (centre panel). The preview on the right shows the template structure before committing.*
 
