@@ -1,4 +1,4 @@
-# Lab 04 - Use the Knowledge Base to Document and Reuse Solutions
+#  Use the Knowledge Base to Document and Reuse Solutions
 
 **Platform:** ServiceNow Personal Developer Instance (PDI)
 **Module:** Knowledge Management
@@ -62,7 +62,8 @@ Observe the dashboard layout:
 
 > The Knowledge Center is the management hub for all knowledge bases. Before creating an article, always check whether a similar one already exists to avoid duplication.
 
-![Knowledge Center dashboard overview](images/01_knowledge_center_dashboard.png)
+![Knowledge Center dashboard overview]<img width="1358" height="638" alt="01_knowledge_center_dashboard" src="https://github.com/user-attachments/assets/8e57fd1d-70d8-46a2-ad9c-060ea12135d9" />
+
 *Fig 1 - Knowledge Center homepage. Highlighted: the "Create an article" action link (top right) and the Knowledge bases list showing article counts per base. The IT knowledge base with 35 articles is where this lab's article will be created.*
 
 ---
@@ -90,7 +91,8 @@ Click **Next** to proceed to the article editor.
 
 > Always match the template to the content type. Use Standard for How-To and FAQ articles. Use Known Error article only when the article is being linked to a Problem record.
 
-![Select IT knowledge base and Standard template](images/02_select_knowledge_base_and_template.png)
+![Select IT knowledge base and Standard template]<img width="1355" height="636" alt="02_select_knowledge_base_and_template" src="https://github.com/user-attachments/assets/5fbfafb8-32a5-49cd-8da7-941eae1f7fb1" />
+
 *Fig 2 - Article creation wizard. Highlighted: "IT" selected as the knowledge base (left panel, green bar) and "Standard" as the template (centre panel). The preview on the right shows the template structure before committing.*
 
 ---
@@ -133,7 +135,8 @@ Use the Settings panel to adjust Styling, Background, Border, Dimension (Size, P
 
 > Set the Scheduled publish date to today or a near future date. Set Valid to a far future date (2100-01-01) so the article does not expire unexpectedly.
 
-![Article editor with KB0010008 being written](images/03_create_new_knowledge_article.png)
+![Article editor with KB0010008 being written]<img width="1363" height="639" alt="03_create_new_knowledge_article" src="https://github.com/user-attachments/assets/8b4892ea-ad90-4ab5-93b9-ca8e585ff03c" />
+
 *Fig 3 - The Create New Knowledge editor. Highlighted: the auto-generated KB number (KB0010008), the Short description field, and the Scheduled publish date. The centre canvas shows the article body with Symptoms section visible.*
 
 ---
@@ -161,7 +164,8 @@ The article tab in the header (shown as "Users unable to...") confirms the artic
 
 > Some PDI configurations route articles through an approval workflow before they reach Published state. If your article moves to "Awaiting Approval" after saving, ask your KB manager to approve it, or check the Knowledge Management > Administration settings to adjust the workflow.
 
-![Published article KB0010008 - Users unable to log in](images/04_published_article_kb0010008.png)
+![Published article KB0010008 - Users unable to log in]<img width="1364" height="634" alt="04_published_article_kb0010008" src="https://github.com/user-attachments/assets/687acb7a-6b66-49c1-b939-4e32cc245f97" />
+
 *Fig 4 - Published state of KB0010008. Highlighted: the KB number and metadata line (KB0010008, authored by System Administrator, 2 views) and the article title. The green-outlined tab confirms the article is open and published.*
 
 ---
@@ -185,7 +189,8 @@ This incident represents the password reset issue that prompted the knowledge ar
 
 > If creating a new incident, set the Short description to "User unable to log in" and set State to Resolved before proceeding. This simulates a realistic post-resolution documentation workflow.
 
-![Incident INC0010012 - User unable to log in](images/05_incident_inc0010012_opened.png)
+![Incident INC0010012 - User unable to log in]<img width="1360" height="343" alt="05 opened incident " src="https://github.com/user-attachments/assets/d7a047f6-0500-4eea-9d2d-5549c888d915" />
+
 *Fig 5 - Incident INC0010012 with Short description "User unable to log in". Highlighted: the INC number, the State showing "Resolved", and the Short description field - the three fields that establish the context for linking the KB article.*
 
 ---
@@ -211,7 +216,8 @@ Click **Attach** on the right of the result to link the article to this incident
 
 > The Related Search feature uses contextual matching based on the incident short description. This is a core KCS practice - surfacing relevant knowledge automatically during the resolution process, before an agent even thinks to search manually.
 
-![Related search results showing KB0010008 with Attach button](images/06_related_search_results.png)
+![Related search results showing KB0010008 with Attach button]<img width="1333" height="176" alt="06 seraching for the article" src="https://github.com/user-attachments/assets/8116f74b-6eba-4199-a0f8-4eb39c1654f4" />
+
 *Fig 6 - Related Search Results panel within the incident. Highlighted: the article result "Users unable to log in due to forgott..." with its IT | IT classification, and the "Attach" button on the right. Attaching creates the formal link between the incident and the KB article.*
 
 ---
@@ -242,7 +248,8 @@ Click **Update** to save all changes.
 
 > Always include the KB article number in both the Work Notes and the Resolution Notes. This creates a bidirectional audit trail - you can find the incident from the article, and find the article from the incident.
 
-![Work notes, comments, and resolution fields completed](images/07_work_notes_and_resolution_linked.png)
+![Work notes, comments, and resolution fields completed]<img width="1299" height="366" alt="07 article and work notes linked" src="https://github.com/user-attachments/assets/a5a8e756-ecc9-495f-a2c1-9431a6074485" />
+
 *Fig 7 - Incident resolution section fully completed. Highlighted: the Work Notes field ("Resolved using Knowledge Article KB0010008. Article linked to this record."), the Resolution code ("Solution provided"), and the Resolution notes referencing KB0010008.*
 
 ---
@@ -262,7 +269,8 @@ This hyperlinked entry confirms the KB article is formally attached to the incid
 
 > The activity log is permanent and tamper-evident. Once a KB article is linked and the record is saved, this entry cannot be removed without administrative access. This is your audit evidence that KCS practice was followed.
 
-![Activity log showing KB0010008 article linked](images/08_activity_log_kb_article_attached.png)
+![Activity log showing KB0010008 article linked]<img width="1248" height="126" alt="08_activity_log_kb_article_attached" src="https://github.com/user-attachments/assets/90dbef61-33fe-4777-8e8b-a19b23f7aecc" />
+
 *Fig 8 - The Activities section of the incident. Highlighted: the KB0010008 hyperlink entry timestamped 2026-04-30 03:51:28. This confirms the article is formally attached and discoverable from the incident record.*
 
 ---
@@ -288,7 +296,8 @@ The article sits between other IT articles (MAC address lookup, system restore g
 
 > If your article does not appear in search results immediately, wait 1-2 minutes and search again. ServiceNow indexes new articles shortly after publishing. If it still does not appear, verify the Workflow State is set to Published (not Draft) and the Knowledge base is set to IT (not a restricted base).
 
-![Knowledge search results with the new article visible](images/09_article_in_knowledge_search_results.png)
+<img width="1175" height="574" alt="08 Article appeared in search" src="https://github.com/user-attachments/assets/1ef6f779-4e9e-474f-a65f-82c000e725ea" />
+
 *Fig 9 - Knowledge Search results page. Highlighted: the "Users unable to log in due to forgotten password" article in the results list, showing IT | IT classification, System Administrator authorship, and 17 views - confirming it is publicly indexed and discoverable.*
 
 ---
@@ -312,51 +321,9 @@ The bidirectional link is now complete:
 
 > The view count incrementing from 17 to 18 after your search validates that the article is being tracked. Over time, a high view count with low new-incident volume on the same topic is the primary metric that proves the article is achieving deflection.
 
-![Published article showing 18 views and linked incident in sidebar](images/10_article_published_view_with_incident_link.png)
+![Published article showing 18 views and linked incident in sidebar]<img width="1181" height="569" alt="10_article_published_view_with_incident_link" src="https://github.com/user-attachments/assets/60df4b70-ba48-41fc-ba7a-877bf6067b04" />
+
 *Fig 10 - The published KB0010008 article viewed from the self-service portal. Highlighted: the article metadata line showing "18 Views" and the "Most Recent Tasks" sidebar linking back to INC0010025. This bidirectional traceability is the hallmark of a well-implemented KCS workflow.*
-
----
-
-## Validation Checklist
-
-| Validation Check | Expected Result | Status |
-|---|---|---|
-| KB article created | KB0010008 exists in Knowledge > Articles | - |
-| Knowledge base correct | Article belongs to IT knowledge base | - |
-| Workflow state | Article is Published (not Draft) | - |
-| Article structure | Contains title, symptoms, and resolution steps | - |
-| Incident exists | INC0010012 with "User unable to log in" | - |
-| Incident state | Resolved | - |
-| KB article attached | Article appears in incident activity log | - |
-| Work notes completed | "Resolved using Knowledge Article KB0010008..." | - |
-| Resolution code set | "Solution provided" | - |
-| Customer URL shared | KB article URL in Comments (Customer visible) | - |
-| Portal discoverability | Article appears in Self Service KB search | - |
-| View count > 0 | Article shows at least 1 view | - |
-| Bidirectional link | Incident visible in article's Most Recent Tasks | - |
-
----
-
-## Knowledge Article Lifecycle
-
-```
-Idea / Trigger
-    |
-    v
-Draft
-    |  (author writes content)
-    v
-Review / Awaiting Approval     <-- some PDI configs skip this
-    |  (KB manager reviews)
-    v
-Published                      <-- article is searchable and linkable
-    |
-    v
-Retired / Outdated             <-- set Valid to date in the past
-    |
-    v
-Archived or Deleted
-```
 
 ---
 
@@ -392,33 +359,3 @@ Each time an article is opened, its view count increments. High view counts on s
 The primary business value of a well-maintained KB is deflection - users who find the answer themselves never raise a ticket. This reduces inbound volume, lowers average handle time, and frees agents for complex work.
 
 ---
-
-## Files in This Lab
-
-```
-lab-04-knowledge-base/
-- README.md                                          <- This file - full lab walkthrough
-- TICKET_NOTES.md                                    <- Agent documentation and article content
-- QUICK_REFERENCE.md                                 <- KB cheat sheet and lifecycle reference
-- images/
-  - 01_knowledge_center_dashboard.png                <- Knowledge Center homepage
-  - 02_select_knowledge_base_and_template.png        <- Article creation wizard
-  - 03_create_new_knowledge_article.png              <- Article editor with content
-  - 04_published_article_kb0010008.png               <- Published article view
-  - 05_incident_inc0010012_opened.png                <- Related incident record
-  - 06_related_search_results.png                    <- Contextual KB search from incident
-  - 07_work_notes_and_resolution_linked.png          <- Completed resolution fields
-  - 08_activity_log_kb_article_attached.png          <- Activity log showing KB link
-  - 09_article_in_knowledge_search_results.png       <- Article in portal search results
-  - 10_article_published_view_with_incident_link.png <- Article with view count and INC link
-```
-
----
-
-## Related Labs
-
-- Lab 01 - Log and Resolve an Incident
-- Lab 02 - Incident Assignment and Escalation
-- Lab 03 - Log and Fulfil a Service Request
-- **Lab 04 - Use the Knowledge Base to Document and Reuse Solutions** (this lab)
-- Lab 05 - Change Management and CAB Approval
