@@ -180,7 +180,8 @@ Complete the **Backout plan** field immediately below the Implementation plan. T
 
 Complete the **Test plan** field. The test plan defines the specific checks that confirm the change was successful before the maintenance window is closed.
 
-![06 Test Plan](screenshots/06_test_plan.png)
+<img width="1074" height="162" alt="06_test_plan" src="https://github.com/user-attachments/assets/0c213b38-f410-47c8-871a-cb24846b41aa" />
+
 
 > **Orange highlight:** The Test plan field containing four specific checks:
 >
