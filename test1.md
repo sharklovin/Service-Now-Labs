@@ -21,6 +21,7 @@ Use the ServiceNow Service Catalog to submit a service request, fulfil it throug
 > A new employee is starting on Monday and needs the following items provisioned before their first day:
 >
 > - A **Standard Laptop** (hardware)
+
 > - A **New Email Account** (Active Directory + Microsoft 365 licence)
 > - **Corporate VPN Access** (network provisioning)
 >
@@ -273,3 +274,5 @@ An optional sub-task under an RITM for breaking fulfilment into smaller steps. N
 
 **Incident**
 A completely separate record type for service disruptions. Never use an incident to fulfil a request. Never use a request to log a break-fix issue.
+
+---
