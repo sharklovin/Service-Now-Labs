@@ -200,7 +200,8 @@ Complete the **Test plan** field. The test plan defines the specific checks that
 
 Click **Submit** to save the Change Request. The system saves the record and automatically advances the State from New to **Assess**. The Assess state is where the Change Advisory Board reviews the planning documentation before authorising the work.
 
-![07 State Changed to Assess](screenshots/07_state_changed_to_assess.png)
+<img width="480" height="281" alt="07 change saved to accessed" src="https://github.com/user-attachments/assets/ab6c9c6b-9333-4c79-a09e-96419b7a13e9" />
+
 
 > **Red highlight:** The State field showing **Assess**. The Assess state is the first formal review gate in the Normal Change lifecycle. At this stage, the CAB will review the implementation plan, backout plan, test plan, and risk assessment to confirm that the change is adequately planned before it moves to authorisation.
 >
