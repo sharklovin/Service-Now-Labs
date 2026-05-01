@@ -132,7 +132,8 @@ A blank Change Request form opens with a system-assigned CHG number. Complete th
 
 Scroll down the form to the Risk and Description fields. Set Risk to **Moderate** - this upgrade affects all users on the second floor and involves a brief network interruption during the maintenance window. Confirm the description explains the business justification for the change.
 
-![03 Risk and Description Fields](screenshots/03_risk_and_description_fields.png)
+<img width="1310" height="215" alt="03 updating risk and talking about description " src="https://github.com/user-attachments/assets/eb979f22-8ac0-4415-9f90-57c41620e43f" />
+
 
 > **Red highlight:** The Risk field set to Moderate. Risk in ServiceNow Change Management is the technician's assessment of how likely the change is to cause disruption and how severe that disruption would be. Moderate means: disruption is possible, the blast radius is meaningful (second floor users), but the work is understood and has a rollback path. Low risk would be appropriate for a single-user change. High risk would be appropriate for changes that affect the entire organisation or involve no tested rollback.
 >
@@ -215,13 +216,12 @@ Click **Submit** to save the Change Request. The system saves the record and aut
 
 Navigate to Change > All to open the full change list. Locate CHG0030007 and confirm the record details are correct before proceeding to the approval step.
 
-![08 CHG Record in List View](screenshots/08_chg_record_in_list_view.png)
+<img width="1333" height="131" alt="08 CHG Number exist" src="https://github.com/user-attachments/assets/e94e7d79-f2b4-441f-80e3-84e353302d43" />
+
 
 > **Red highlight:** CHG0030007 in the Number column - the unique reference for this change. This is the number that all communications, approvals, and audit entries will reference.
 >
 > **Green highlight:** The State column showing **Authorize** - the change has progressed past Assess and is now pending formal approval. The list view provides a high-level overview of all change records and is the standard view used by the CAB during their weekly review meeting.
->
-> **Blue highlight:** The entire row is highlighted to show the record summary: Normal type, Authorize state, planned dates 2026-05-09, requested by System Administrator. All fields are visible at a glance without opening the record.
 
 ---
 
@@ -247,7 +247,8 @@ Open CHG0030007 and navigate to the Approvals section. The approval record shows
 
 Once approved, advance the change State to **Implement** to indicate that the maintenance window has opened and work has begun. Add a Work Note to document the live status.
 
-![10 Implement State and Work Notes](screenshots/10_implement_state_work_notes.png)
+<img width="1126" height="207" alt="10 state chnaged to implement and work notes added" src="https://github.com/user-attachments/assets/f27a9818-376a-4b9a-b93d-6927bcccd7de" />
+
 
 > **Orange highlight:** The Work Note added at 2026-05-01 03:17:34 reading: "Maintenance window started at 02:00. Switch backup completed. Firmware upgrade in progress." This note documents three facts in real time: the maintenance window started on schedule, the configuration backup (Step 2 of the implementation plan) was completed successfully, and the firmware upgrade is actively being applied. Anyone monitoring the change queue can see the live status without calling the engineer.
 >
@@ -289,7 +290,8 @@ Navigate to the **Closure Information** tab on the change record. Set the Close 
 
 Navigate back to Change > All and confirm that CHG0030007 now shows as **Closed** in the list view. The record lifecycle is complete.
 
-![13 Change Closed in List View](screenshots/13_change_closed_list_view.png)
+<img width="1223" height="53" alt="13 close 2" src="https://github.com/user-attachments/assets/e05aa3c1-e56c-48ce-846f-8dc7767f9bc4" />
+
 
 > **Green highlight:** The full row for CHG0030007 in the list view, confirming all key fields are correct: Normal type, Closed state, planned dates 2026-05-09, requested by System Administrator.
 >
