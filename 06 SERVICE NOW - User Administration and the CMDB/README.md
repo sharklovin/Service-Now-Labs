@@ -259,7 +259,8 @@ Click on the *CAROL-IBM record to open the full CI detail view. This is the CI t
 
 Open a new Incident form. Set the Caller to Nnamso Mkpong and the Short description to "Laptop not booting". Note that the Configuration item field is currently empty. This represents the state of the incident before the CMDB link is made.
 
-![07 Incident Form Before CI Link](screenshots/07_incident_form_before_ci_link.png)
+<img width="1353" height="314" alt="07 new incident form before linking" src="https://github.com/user-attachments/assets/312afa3e-b4d3-4df0-af09-f2f1bc01f25f" />
+
 
 > **Blue highlight:** The Caller field showing **Nnamso Mkpong** - the newly created analyst account is immediately usable as a caller on an incident. This confirms the user creation and role assignment from Phase 1 through Phase 3 are all working correctly.
 >
