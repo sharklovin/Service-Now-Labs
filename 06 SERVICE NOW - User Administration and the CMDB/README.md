@@ -221,7 +221,8 @@ Open a new Incident form and click the search icon on the Caller field. Type the
 
 Navigate to **Configuration > CI Classes > Computer**. The CMDB Computer list opens showing all computer configuration items registered in the instance.
 
-<img width="1260" height="469" alt="05 Confog iten list" src="https://github.com/user-attachments/assets/ab771b0f-19a0-411d-9dc8-50d8ca2677a6" />
+<img width="1260" height="469" alt="05 Confog iten list" src="https://github.com/user-attachments/assets/0370adb4-bdf1-4e10-8fe7-587139c55141" />
+
 
 
 > **Orange highlight:** The search result count showing **855 results**. The CMDB in this PDI instance contains 855 computer CI records. In an enterprise environment this number can be in the tens or hundreds of thousands, covering every laptop, desktop, server, and virtual machine the organisation manages. The Last refreshed indicator shows this list was current 4 minutes ago - CMDB data is refreshed automatically by discovery tools in production instances.
