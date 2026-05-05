@@ -18,11 +18,11 @@ Create a user record in ServiceNow, assign the correct ITIL role, verify the use
 
 ## Business Scenario
 
-> **Two tasks, one lab - May 2026**
+> **2 tasks, 1 lab - May 2026**
 >
-> Task one: A new analyst named Nnamso Mkpong has just joined the IT team. Before they can log or manage incidents in ServiceNow, they need a user account with the correct role. You have been asked to create the account, assign the ITIL role, and confirm the account is active and searchable in the system.
+> Task 1: A new analyst named Nnamso Mkpong has just joined the IT team. Before they can log or manage incidents in ServiceNow, they need a user account with the correct role. You have been asked to create the account, assign the ITIL role, and confirm the account is active and searchable in the system.
 >
-> Task two: A user has called the service desk to report that their laptop is not booting. Before logging the incident, the analyst needs to locate the device in the CMDB, review its configuration record and support history, link it to the incident, and add a work note confirming the asset check was done.
+> Task 2: A user has called the service desk to report that their laptop is not booting. Before logging the incident, the analyst needs to locate the device in the CMDB, review its configuration record and support history, link it to the incident, and add a work note confirming the asset check was done.
 
 These two tasks represent the two foundational skills of structured IT support: knowing who is in the system (user administration) and knowing what is in the system (the CMDB). Without correct user records, access control breaks down and incident routing becomes unreliable. Without CMDB linkage, incidents exist in isolation - the support team has no visibility into asset history, no way to spot repeat failures on the same device, and no asset-to-incident relationship for reporting.
 
@@ -187,7 +187,8 @@ After clicking Submit, the system saves the record and returns to the Users list
 
 Open the Nnamso Mkpong user record. Scroll to the Roles related list at the bottom of the form. Click **Edit** and add the **itil** role. Save the role assignment.
 
-![03 ITIL Role Assigned](screenshots/03_itil_role_assigned.png)
+<img width="1352" height="138" alt="03 ITIL ROLE ADDED" src="https://github.com/user-attachments/assets/e0a89e22-de0c-48d2-b06e-3156555b0700" />
+
 
 > **Green highlight:** The **itil** role name in the Role column. This is the role that grants the analyst access to the Incident, Problem, and Change modules, the CMDB, work notes, and all standard service desk functions. Without this role, the analyst can log in but will see an empty navigation with no access to any ITSM module.
 >
