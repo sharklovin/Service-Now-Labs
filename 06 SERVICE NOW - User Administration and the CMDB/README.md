@@ -221,13 +221,12 @@ Open a new Incident form and click the search icon on the Caller field. Type the
 
 Navigate to **Configuration > CI Classes > Computer**. The CMDB Computer list opens showing all computer configuration items registered in the instance.
 
-![05 CMDB Computer CI List](screenshots/05_cmdb_computer_ci_list.png)
+<img width="1260" height="469" alt="05 Confog iten list" src="https://github.com/user-attachments/assets/ab771b0f-19a0-411d-9dc8-50d8ca2677a6" />
+
 
 > **Orange highlight:** The search result count showing **855 results**. The CMDB in this PDI instance contains 855 computer CI records. In an enterprise environment this number can be in the tens or hundreds of thousands, covering every laptop, desktop, server, and virtual machine the organisation manages. The Last refreshed indicator shows this list was current 4 minutes ago - CMDB data is refreshed automatically by discovery tools in production instances.
 >
-> **Red highlight:** The *ANNIE-IBM record at the top of the list. The asterisk prefix on CI names in this PDI instance indicates records that came from the demonstration data set. Each row shows Name, Manufacturer, Operating System, and CPU speed - the core identification fields for a computer CI at list level.
->
-> **Blue highlight:** The *ASSET-IBM record directly below. Both ANNIE-IBM and ASSET-IBM show Lenovo as the manufacturer and Windows XP Professional as the OS. In a production CMDB, the OS field is critical for patch management - the change team uses it to identify which devices need a specific security update applied.
+> **Red highlight:** The *CAROL-IBM record on the list. The asterisk prefix on CI names in this PDI instance indicates records that came from the demonstration data set. Each row shows Name, Manufacturer, Operating System, and CPU speed - the core identification fields for a computer CI at list level. it also shows Lenovo as the manufacturer and Windows XP Professional as the OS. In a production CMDB, the OS field is critical for patch management - the change team uses it to identify which devices need a specific security update applied.
 >
 > The list columns - Name, Manufacturer, Operating System, CPU speed - represent the minimum information needed to identify a device remotely. An analyst who receives a call about a laptop problem can search this list by name or serial number and immediately know the device spec before the caller describes it.
 
