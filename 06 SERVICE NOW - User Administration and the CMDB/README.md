@@ -204,7 +204,8 @@ Open the Nnamso Mkpong user record. Scroll to the Roles related list at the bott
 
 Open a new Incident form and click the search icon on the Caller field. Type the analyst's name and confirm that Nnamso Mkpong appears in the lookup results.
 
-![04 User Appears in Caller Search](screenshots/04_user_appears_in_caller_search.png)
+<img width="780" height="165" alt="04 USERS SHOWS IN CALLER" src="https://github.com/user-attachments/assets/06eb8ffc-9406-47db-9af2-70079859f3fb" />
+
 
 > **Green highlight:** The Nnamso Mkpong row at the top of the caller search results, showing First name: Nnamso, Last name: Mkpong, Email: nnamsotechie@gmail.com. This confirms the user record is active, correctly configured, and indexed in the caller lookup. A user who cannot be found in the Caller field cannot be set as the reporter on any incident - their issues would have to be logged under someone else's account, which corrupts assignment routing and SLA tracking.
 >
