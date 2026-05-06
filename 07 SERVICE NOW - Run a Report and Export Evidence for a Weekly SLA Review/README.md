@@ -145,16 +145,13 @@ Complete the following fields:
 - **Description:** Summary of this week's incident performance
 - **Application:** Global
 
-![01 Report Source Weekly Incident Summary](screenshots/01_report_source_weekly_incident_summary.png)
+<img width="304" height="547" alt="01 Creating report data" src="https://github.com/user-attachments/assets/3d7c5d9f-7cf0-4e7d-b096-c614abc30dbd" />
+
 
 > **Red highlight:** The Name field set to "Weekly Incident Summary". This is the report's display name across the entire ServiceNow instance - in the Reports list, on dashboards, and in scheduled email exports. The name should be specific enough that any analyst can identify the report's purpose and time scope without opening it.
 >
 > **Blue highlight:** The Table field set to "Incident [incident]". The table selection is the most consequential decision in the report - it determines every field available for columns, filters, and grouping. Incident [incident] is the correct table for incident volume, priority distribution, state analysis, and assignment group reporting. Selecting the wrong table (for example, Task SLA) at this stage would mean the report cannot access incident-specific fields like Short Description, Caller, or Resolved date.
 >
-> **Orange highlight:** The Description field reading "Summary of this week's incident performance". Descriptions are visible to other administrators and report consumers. A clear description prevents duplicate reports being created by other analysts who cannot tell what an existing report covers.
->
-> The Filter section at the bottom shows the CONDITIONS builder with no criteria set yet - filtering will be added in the report builder step after this form is submitted.
-
 ---
 
 ### Phase 2 - Enter the Report Builder and Configure Columns
