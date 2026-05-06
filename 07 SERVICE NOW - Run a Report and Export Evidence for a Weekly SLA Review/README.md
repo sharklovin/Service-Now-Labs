@@ -142,6 +142,7 @@ Navigate to **Reports > Create New** in the ServiceNow navigation bar. A Report 
 Complete the following fields:
 - **Name:** Weekly Incident Summary
 - **Table:** Incident [incident]
+  
 
 <img width="304" height="547" alt="01 Creating report data" src="https://github.com/user-attachments/assets/3d7c5d9f-7cf0-4e7d-b096-c614abc30dbd" />
 
