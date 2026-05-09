@@ -137,7 +137,8 @@ Navigate to **Reports > Create New**. The report builder opens at the **Data** s
 - **Source type:** Table
 - **Table:** Incident [incident]
 
-![01 Report Data Source Setup](screenshots/01_report_data_source_setup.png)
+<img width="304" height="547" alt="01 creating incident starting from data types" src="https://github.com/user-attachments/assets/e2ebe649-140a-4ee7-a49b-f7ad3b24a946" />
+
 
 > **Red highlight:** The Report name field set to "Weekly Incident Summary". This is the name that appears in the Reports list, on dashboards, and on exported PDFs. It must be specific enough for any analyst to understand the scope without opening the report.
 >
@@ -153,11 +154,12 @@ Navigate to **Reports > Create New**. The report builder opens at the **Data** s
 
 At the **Type** step, type "list" in the search box. One result appears. Select the List card and click Next.
 
-![02 List Report Type Selected](screenshots/02_list_report_type_selected.png)
+<img width="309" height="555" alt="02 you choose list" src="https://github.com/user-attachments/assets/aa5b27eb-1b50-49d5-8a30-57b2b2c6d691" />
 
-> **Green highlight:** The List report type card, selected with a teal outline. The List type renders one row per incident - the correct format for verifying that the table, columns, and filter are all producing the right data before converting to a chart.
+
+> The List report type card, selected with a teal outline. The List type renders one row per incident - the correct format for verifying that the table, columns, and filter are all producing the right data before converting to a chart.
 >
-> **Red highlight:** The search result count "1 Report types found by search". The List type is categorised under Other - ServiceNow separates it from the visual chart types. The card icon shows horizontal rows representing the list format.
+
 >
 > Always build as a list first, verify the records, then switch to a chart. A chart built on incorrect data looks authoritative and misleads everyone in the meeting.
 
@@ -172,11 +174,11 @@ At the **Configure** step, click **Choose columns**. Move required fields from A
 Columns selected:
 Number, Opened, Short description, Caller, Priority, State, Category, Assignment group, Assigned to, Updated, Updated by
 
-![03 Columns Configured](screenshots/03_columns_configured.png)
+<img width="550" height="404" alt="03 click confure to add these columns " src="https://github.com/user-attachments/assets/b4cd85de-fe3a-4d44-86c6-d62a159f1b9b" />
+
 
 > **Green highlight:** The Selected columns panel on the right showing all eleven chosen fields. These columns cover identity (Number), timing (Opened), description (Short description), ownership (Caller, Assigned to, Assignment group), classification (Priority, State, Category), and audit trail (Updated, Updated by).
 >
-> **Blue highlight:** The Available columns panel on the left. Fields shown in teal with [+] notation are linked fields that can be expanded to include sub-fields from related tables if needed. For this report the standard fields are sufficient.
 >
 > Click OK to confirm. The up/down arrows on the right of the Selected panel reorder columns in the rendered report.
 
@@ -192,13 +194,11 @@ In the Configure step, click **Add Filter Condition** and set the three-part con
 - **Operator:** at or after
 - **Value:** This week
 
-![04 Filter Opened This Week](screenshots/04_filter_opened_this_week.png)
+<img width="1055" height="129" alt="04 added a filter" src="https://github.com/user-attachments/assets/54878e06-95be-4690-a9f4-f23773574f03" />
 
-> **Green highlight:** The complete filter row. All three parts together define a dynamic date boundary: return only incidents opened at or after the start of the current calendar week.
->
-> **Red highlight:** The operator "at or after". This includes incidents opened at exactly midnight Monday. Using "after" instead would exclude any incident opened at that precise boundary moment. For a weekly summary, "at or after" is always the correct operator.
->
-> **Blue highlight:** The value "This week" - a dynamic relative date that recalculates automatically each time the report runs. The same saved report returns the correct week's incidents every time it is opened, with no manual date changes required.
+
+>  The complete filter row. All three parts together define a dynamic date boundary: return only incidents opened at or after the start of the current calendar week.
+
 
 ---
 
@@ -228,11 +228,10 @@ Click **Run**. The report executes against the Incident table and renders all ma
 
 Click **Edit report**. Navigate to the **Type** step and search for "bar". Select **Bars**.
 
-![06 Bar Chart Type Selected](screenshots/06_bar_chart_type_selected.png)
+<img width="316" height="351" alt="06 changed the result to Bar type" src="https://github.com/user-attachments/assets/96d4543b-8ce1-4642-bd99-b84131c7f3c3" />
 
-> **Green highlight:** The Bars chart type card selected with a teal outline. The description "Compare individual or aggregate scores across data dimensions" matches this use case exactly - comparing incident counts across priority levels.
->
-> **Red highlight:** "5 Report types found by search" for "bar". The five types include standard Bars, Horizontal Bars, and Stacked Bars. Standard Bars is correct for a single-dimension priority comparison.
+
+> **Blue highlight:** The Bars chart type card selected with a teal outline. The description "Compare individual or aggregate scores across data dimensions" matches this use case exactly - comparing incident counts across priority levels.
 >
 > After selecting Bars, set **Group by** to Priority in the Configure step. Group by determines the X-axis categories. Without it the chart renders as a single undifferentiated bar.
 
@@ -244,7 +243,8 @@ Click **Edit report**. Navigate to the **Type** step and search for "bar". Selec
 
 With Bars selected and Group by set to Priority, click **Run**.
 
-![07 Bar Chart Rendered](screenshots/07_bar_chart_rendered.png)
+<img width="1047" height="591" alt="07 bar chart result and daved" src="https://github.com/user-attachments/assets/e6a01d4f-fc13-4023-b17d-63d32826ecaa" />
+
 
 > **Red highlight:** The report title "Weekly Incident Summary" above the chart - to be renamed in the next step.
 >
@@ -282,7 +282,8 @@ Navigate to **Reports > Create New** again. Complete the Data step for the secon
 - **Source type:** Table
 - **Table:** Task SLA [task_sla]
 
-![09 SLA Breach Report Data Source](screenshots/09_sla_breach_report_data_source.png)
+<img width="319" height="546" alt="09 created a new report " src="https://github.com/user-attachments/assets/b5b87623-40fb-4cfa-b50f-3e65928f9d92" />
+
 
 > **Red highlight:** The Report name "SLA Breached Incidents". The name signals this is a compliance report, not a volume report.
 >
@@ -302,10 +303,9 @@ In the Configure step, under **TASK SLA CONDITIONS**, add the breach filter.
 - **Operator:** is
 - **Value:** true
 
-![10 SLA Breach Filter Has Breached True](screenshots/10_sla_breach_filter_has_breached_true.png)
+<img width="1039" height="166" alt="10 adding filter conditions" src="https://github.com/user-attachments/assets/d0effcd5-81da-4271-b960-faace96cef39" />
 
-> **Green highlight:** The complete filter condition row. Has breached - is - true returns every Task SLA record where the SLA clock expired without the task being resolved.
->
+> 
 > **Red highlight:** The "Has breached" field. This field only exists on the Task SLA table, confirming why the correct table selection in Step 9 matters. On the Incident table this field is absent.
 >
 > **Blue highlight:** The value "true". Has breached is a boolean field set automatically by the ServiceNow SLA engine when a deadline passes. There is no ambiguity: true means breached, false means not breached.
@@ -320,7 +320,8 @@ In the Configure step, under **TASK SLA CONDITIONS**, add the breach filter.
 
 Click **Run**.
 
-![11 SLA Breached Incidents Results](screenshots/11_sla_breached_incidents_results.png)
+<img width="1042" height="440" alt="11 result when i clicked run" src="https://github.com/user-attachments/assets/7523e973-81b1-4953-b241-925c63165a45" />
+
 
 > **Red highlight (title):** "SLA Breached Incidents" against "Table: Task SLA [task_sla]" - correct report running against the correct table.
 >
@@ -342,15 +343,11 @@ Click **Run**.
 
 Click the sharing icon in the top right. The Sharing panel opens with four options.
 
-![12 Sharing Export Menu](screenshots/12_sharing_export_menu.png)
+<img width="281" height="446" alt="12 clicking export as odf" src="https://github.com/user-attachments/assets/c42e3fa4-1dfd-412f-b9b3-6be357785274" />
+
 
 > **Red highlight:** **Export to PDF** - generates a portable, timestamped evidence document that can be shared outside ServiceNow. This is the option used to produce the audit-grade export for the service review.
 >
-> **Blue highlight:** **Share** - sends a link to the live report to other ServiceNow users. Recipients can run the report themselves.
->
-> **Orange highlight:** **Schedule** - configures the report to run automatically and email results on a set schedule. The SLA breach report could be scheduled to run every Friday at 07:00 and email the team lead before the meeting starts.
->
-> **Green highlight:** **Add to Dashboard** - places the report as a live widget on a ServiceNow homepage. The breach count and priority bar chart together on a dashboard give the team real-time visibility without navigating to Reports.
 
 ---
 
@@ -360,7 +357,9 @@ Click the sharing icon in the top right. The Sharing panel opens with four optio
 
 The PDF renders with a standard header block followed by the full data table.
 
-![13 Exported PDF Report](screenshots/13_exported_pdf_report.png)
+<img width="935" height="541" alt="13 exported to pdf view" src="https://github.com/user-attachments/assets/8dee660a-2fe2-48fb-b7ff-ec1400dcd524" />
+
+
 
 > **Blue highlight:** The metadata header block:
 > - Report Title: SLA Breached Incidents
@@ -371,12 +370,7 @@ The PDF renders with a standard header block followed by the full data table.
 > - Sort Order: Active in ascending order
 >
 > This block makes the export auditable. It proves when the data was pulled, who pulled it, and from which table. A PDF without this information cannot serve as compliance evidence.
->
-> **Orange highlight:** The column header row - Task, SLA definition, SLA definition Type, SLA definition Target, Stage, Business time left, Business elapsed time, Business elapsed percentage, Start time, Stop time.
->
-> **Red highlight:** INC0008111 (Priority 3 SLA, Completed, 661 Days 14 Hours 54 Minutes, **66,162.13%**) and INC0000060 (Priority 1 SLA, Cancelled, 7 Hours 3 Minutes, 705.17%). INC0008111 at 66,162% is a data quality flag - a Priority 3 incident with a 1-day SLA that remained open in ServiceNow for 661 days. This record needs to be investigated and closed with appropriate notes.
->
-> **Green highlight:** "Page 1" confirming the 24 Task SLA records span multiple pages.
+
 
 ---
 
